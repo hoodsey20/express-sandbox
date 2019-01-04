@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "первая задача",
+        "completed": true
+    },
+    {
+        "id": 2,
+        "title": "вторая задача",
+        "completed": false
+    },
+    {
+        "id": 3,
+        "title": "третья задача",
+        "completed": false
+    }
+]

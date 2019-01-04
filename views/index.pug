@@ -1,0 +1,9 @@
+extends layout
+
+block main
+    if todos
+        ul#todo-list
+            for todo in todos
+                li.todo-list__item(class={'completed': todo.completed})= todo.title
+    else 
+        p no tasks
