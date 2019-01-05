@@ -12,8 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "http": "0.0.0",
     "morgan": "^1.9.1",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

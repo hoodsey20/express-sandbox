@@ -2,6 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body *, body *:after, body *:before  {
+    box-sizing: inherit;
 }
 
 #header {
@@ -23,4 +28,51 @@ body {
 .todo-list__item.completed {
     color: gray;
     text-decoration: line-through;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+
+    background-color: #555;
+    color: #fff;
+}
+
+.chat-status {
+    color: #f9f62e;
+    text-align: center;
+}
+
+.chat-form {
+    padding: 24px 0;
+}
+
+.chat-input {
+    display: block;
+    width: 100%;
+    height: 32px;
+    padding: 0 8px;
+
+    font-size: 24px;
+
+    background-color: #555;
+    border: 0;
+    border-bottom: 2px solid #f9f62e;
+    outline: 0;
+    color: #f9f62e;
+}
+
+.chat-list {
+    height: 320px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.chat-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #f9f62e;
 }
